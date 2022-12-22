@@ -16,7 +16,7 @@ const ExpenseForm = () => {
         Date_: enteredDate,
       },
     ]);
-    localStorage.setItem('userData',JSON.stringify(sheet))
+    // localStorage.setItem('userData',JSON.stringify(sheet))
   };
   console.log(sheet.length);
   const handleDelete = (s) => {
